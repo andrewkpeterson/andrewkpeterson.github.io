@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.header {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.post_text {
+    float: left;
+    width: 60%;
+}
+
+.intro_text {
+    font-size: 20px;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+    text-align: center;
+    background: white;
+}
+
+.post {
+    background-color: #f1f1f1;
+}
+
+/* Style for navbar */
+
+@keyframes topnav_animation {
+    0% {  
+      color: #000000; 
+      background-color: #ffffff;
+    }
+    100% {  
+        color: #f1f1f1; 
+        background-color: #424242;
+    }
+}
+
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+}
+
+.topnav a, .topnav p {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs
+}
+
+.topnav a:hover {
+    animation-name: topnav_animation;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
